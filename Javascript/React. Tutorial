@@ -1,0 +1,72 @@
+React.js fundamentals
+
+Introduction - 
+
+React is an open source client side web library to build resuable components
+
+Best source of truth -> react link 
+
+
+Advantages of react -> 
+1) Speed , it is capable of 60fps
+
+Declarative style -> 
+change in state causes re-render
+
+easier to prevent bugs 
+
+They are composoble , lots of re-use
+
+
+code 
+var Hello = React.createClass({
+		render: function() { 
+			return <div> Hello {this.props.name} </div> 
+		} 
+	}); 
+React.renderComponent(<Hello name="dhariwal">); 
+
+
+Props State
+\        /
+ \      / 
+  
+
+
+DOM is regenerated once the code
+
+
+ 
+ flow of data -> model -> render -> dom 
+ 
+
+ 
+design components that don't use state as much as possibel 
+
+React is good for 
+speed 
+declarative binding 
+compososability
+
+
+<===================== Module 2 - Components ====================> 
+
+
+A react application or widget is built with components. 
+Component -> element in the dom 
+Components can be nested. 
+
+We will built author quick
+
+
+Top level component is called -> React. 
+
+JSX is transformed to javascript 
+< ================= Bootstrapping =============> 
+Bootstrapping the quiz game
+
+create a basic layout 
+get react 
+
+Used bootstrap for styling 
+downloaded react
