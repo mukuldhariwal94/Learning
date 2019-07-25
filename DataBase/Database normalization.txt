@@ -1,0 +1,51 @@
+database normalization
+
+https://www.youtube.com/watch?v=UrYLYV7WSHM 
+https://www.youtube.com/watch?v=UDFRhj_K508
+
+1st normalization
+
+- each cell is single valued 
+- rows are uniquely identified
+- entries in a column are of the same type
+
+
+2nd Normation form
+
+all attributes ( NON-key ) are dependent on the key of the table
+
+make sure that any columns unrelated to the key have to be sperated out 
+
+A junction table matches two tables
+
+
+Compound key = is a bunch of keys 
+
+
+3rd NF 
+
+
+all fields ( columns ) can be determined only by the key in the table and no other column
+
+only key the key can help us determine the value of the table ( this reduces the data redundancy )
+
+this about. 
+Think about if the data is to be changed do we have to change all values in the table. 
+
+4th normal form 
+No multivalued - dependencies.
+
+try to see if all values depenend
+
+don't allow multiple values in a column
+
+
+for example if someone has more than one shipping address
+
+
+Summary 
+why normalize 
+1) avoid redundancy 
+2) to attain integrity 
+3) to put data into correct tables 
+4) to avoid CUD anamolies
