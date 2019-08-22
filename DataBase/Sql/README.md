@@ -11,3 +11,4 @@
 | 181 |[emp > manager](https://leetcode.com/problems/employees-earning-more-than-their-managers/) |  [Solution](./181/Solution.java)   | 10 mins | easy | self join 
 | 196 |[delete duplicate emails](https://leetcode.com/problems/delete-duplicate-emails/) |  [Solution](./196/Solution.java)   | 10 mins | easy | deleting when duplicates 
 | 197 |[Date Diff](https://leetcode.com/problems/rising-temperature/) |  [Solution](./197/Solution.java)   | 10 mins | easy | date Diff 
+| 176 |[second highest salary](https://leetcode.com/problems/second-highest-salary/) |  [Solution](./176/Solution.java)   | 10 ins | easy | MAX usage in my sql query 
